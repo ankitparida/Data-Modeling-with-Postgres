@@ -37,7 +37,7 @@ This project models user activity data for a music streaming app called Sparkify
 
 **songplays** - records in log data associated with song plays i.e. records with page NextSong
 Attributes:
-    ***1. songplay_id
+    1. songplay_id
     2. start_time
     3. user_id
     4. level
@@ -45,36 +45,36 @@ Attributes:
     6. artist_id
     7. session_id
     8. location
-    9. user_agent***
+    9. user_agent
 
 #### Dimension Tables
 
 **users** - users in the app
-    ***1. user_id
+    1. user_id
     2. first_name
     3. last_name
     4. gender
-    5. level***
+    5. level
 
 **songs** - songs in music database
-    ***1. song_id
+    1. song_id
     2. title
     3. artist_id
     4. year
-    5. duration***
+    5. duration
 
 **artists** - artists in music database
-    ***1.artist_id
+    1.artist_id
     2. name
     3. location
     4. latitude
-    5. longitude***
+    5. longitude
     
 **time** - timestamps of records in songplays broken down into specific units
-    ***1. start_time
+    1. start_time
     2. hour
     3. day
     4. week
     5. month
     6. year
-    7. weekday***
+    7. weekday
